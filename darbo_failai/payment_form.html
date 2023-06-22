@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="lt" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Apmokejimas</title>
+    <link rel="stylesheet" href="css/dizainas.css">
+</head>
+<body>
+<h1>Payment Form</h1>
+<h3>Prasome uzpildyti siuos laukus</h3>
+
+<div>
+    <h1> Kontaktiniiai duomenys</h1>
+    <form>
+        <label for="fn">Vardas</label><br>
+        <input name="fn" type="text" id="fn"/><br><br>
+        <label for="email">Elektroninis pastas</label><br>
+        <input name="email" type="text" id="email"/><br><br>
+        <label for="password">slaptazodis</label><br>
+        <input name="password" type="text" id="password"/><br><br>
+    </form>
+</div>
+<div>
+    <h1>Mokejimo informacija</h1>
+    <form>
+         <label for="kortele">korteles tipas</label><br><br>
+         <select name="card"  id="kortele"/>
+            <option value="card1">master</option>
+            <option value="card2">debit</option>
+            <option value="card3">kredit</option>
+         </select><br>
+          <label for="cardnumber">korteles numeris</label><br>
+          <input name="cardnumber" type="text" id="cardnumber"/><br><br>
+          <label for="expiredate">galioja iki kada</label><br>
+          <input name="expiredate" type="text" id="expiredate" placeholder="2000-00-00"/><br><br>
+
+    </form>
+</div>
+
+
+
+</body>
+</html>
